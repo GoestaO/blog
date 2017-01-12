@@ -1,5 +1,7 @@
-import datetime, re
-from app import db
+import datetime
+import re
+
+from classes.app import db
 
 
 def slugify(s):
